@@ -1,0 +1,17 @@
+[package]
+name = "opal_downloader"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["Max Bucknell"]
+description = "Tool to download and compile Transport for NSW Opal Patronage datasets into a SQLite database."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.31"
+chrono-tz = "0.8.4"
+clap = { version = "4.4.8", features = ["derive"] }
+exitcode = "1.1.2"
+regex = "1.10.2"
+reqwest = "0.11.22"
